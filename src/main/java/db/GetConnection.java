@@ -9,7 +9,7 @@ public class GetConnection {
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Use the correct driver
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SDDD", "root", "Vrb@08642");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SDDD", "root", "root");
 
             if (connection != null) {
                 System.out.println("Database connected successfully!");
